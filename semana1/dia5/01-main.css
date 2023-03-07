@@ -1,0 +1,26 @@
+* {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aqua;
+    color: red;
+    font-size: 20px;
+    margin: 40px;
+    border: solid 3px;
+}
+
+.rojo {
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 3px;
+    text-align: center;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#apellido {
+    color: black;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: #305C72;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.cartilla {
+    margin: auto;
+    border-radius: 10px;
+    background-color: #65A27C;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+.cartilla .nombre {
+    margin-top: 60px;
+    color: #DAF6F2;
+    
+}
+
+.cartilla .img-principal {
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
