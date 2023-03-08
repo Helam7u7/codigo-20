@@ -9,19 +9,44 @@
       * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #ccc;
+        border: 5px solid peru;
+        height: 100vh;
       }
       .caja-1 {
         border: 1px solid red;
         width: 200px;
         height: 100px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        word-wrap: break-word;
       }
       .span-1 {
         border: 1px solid blue;
       }
+      .caja-2 {
+        border: 1px solid white;
+        height: 100px;
+        width: 200px;
+        overflow-x: scroll;
+      }
+      .parrafo-grande {
+        width: 300px;
+      }
     </style>
   </head>
   <body>
-    <div class="caja-1">algo de contenido</div>
+    <div class="caja-1">
+      algo de contenido Loreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeem ipsum dolor sit amet consectetur adipisicing elit. Maxime nulla veniam placeat repudiandae inventore ullam sint unde, autem, corporis vero, at dignissimos tempore enim fuga illum sed quam sit id.
+    </div>
     <span class="span-1">un span</span>
+    <div class="caja-2"> 
+      <p class="parrafo-grande">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cupiditate nobis rem? Fugiat perspiciatis, facilis velit iste nesciunt placeat impedit ea accusantium, incidunt quam quod qui obcaecati eius! Iste, eveniet.
+      </p>
+    </div>
   </body>
 </html>
