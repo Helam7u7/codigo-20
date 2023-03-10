@@ -1,0 +1,28 @@
+.papa {
+    display: flex;
+    margin: 5px;
+}
+div  {
+    margin: 5px;
+}
+/*  esto es el header */
+.main-navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+}
+
+.papa-box {
+    height: 50vh;
+    border: solid orange 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

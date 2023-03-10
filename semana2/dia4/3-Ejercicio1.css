@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartilla {
+  box-shadow: -3px 1px 26px 2px rgba(0,0,0,0.72);
+
+  margin-top: 80px;
+  display: flex;
+  background-color: hsl(216, 50%, 16%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 500px;
+  width: 300px;
+}
+
+.cartilla__caratula {
+  margin-top: 35px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.cartilla__usuario {
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+}
+
+.cartilla__descripcion h1, .name{
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+
+.cartilla__descripcion {
+  color: hsl(215, 51%, 70%);
+  margin: 0px 30px;
+  font-size: 15px;
+}
+
+.cartilla__info {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(215, 51%, 70%);
+  width: 250px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.cartilla__info .precio{
+  display: flex;
+  color: hsl(178, 100%, 50%);
+
+}
+
+.cartilla__usuario {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usuario__foto {
+  width: 30px;
+  height: 30px;
+}
+
+.icon {
+  font-size: 15px;
+}
