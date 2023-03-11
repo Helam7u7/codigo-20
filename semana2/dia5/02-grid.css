@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-cal {
+    display: grid;
+    height: 100vh;
+    border: solid 2px;
+    /* En esta propiedad yo puedo definir el número de columnas que quiero mostrar, auto: va a tomar el espacio libre y por casa seccion que escriba es una columna */
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+}
+
+.container-cal div {
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.item1 {
+  background-color: aqua;
+  border: blue;
+  grid-row: 1 / 3;
+}
+
+.reset {
+  border: solid;
+  grid-column: 1 /span 2;
+}
+
+.equal {
+  border: solid red;
+  grid-column: 3 /span 5; 
+}
+
+.container {
+  display: grid;
+
+  grid-template: 
+    "header header header header" 150px
+    "nav section section aside" 150px
+    "footer footer footer footer" 150px /
+    150px 150px 150px 150px;
+}
+
+header {
+  grid-area: header;
+  background-color: aquamarine;
+}
+
+nav {
+  grid-area: nav; 
+  background-color: lightcoral;
+}
+
+aside {
+  grid-area: aside;
+  background-color: lightgreen;
+}
+
+section {
+  grid-area: section;
+  background-color: lightsalmon;
+}
+
+footer {
+  grid-area: footer;
+  background-color: lightgray;
+}
