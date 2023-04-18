@@ -10,11 +10,53 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <title>Instalación Bootstrap 5</title>
+    <title>Grillas Responsivas Bootstrap 5</title>
   </head>
   <body>
-    <h1 class="display-1">Bootstrap instalado!</h1>
+    <h1 class="display-1">Grillas Responsivas B5!</h1>
 
+    <div class="container-fluid">
+      <h2>Breakpoint <code>.xxl</code> pantalla >= 1400px</h2>
+      <div class="row">
+        <div class="col-xxl-4 bg-danger">Columna 1</div>
+        <div class="col-xxl-4">Columna 2</div>
+        <div class="col-xxl-4 bg-warning">Columna 3</div>
+      </div>
+      <h2>Breakpoint <code>.xl</code> pantalla >= 1200px</h2>
+      <div class="row">
+        <div class="col-xl-4 bg-danger">Columna 1</div>
+        <div class="col-xl-4">Columna 2</div>
+        <div class="col-xl-4 bg-warning">Columna 3</div>
+      </div>
+      <h2>Breakpoint <code>.lg</code> pantalla >= 992px</h2>
+      <div class="row">
+        <div class="col-lg-4 bg-danger">Columna 1</div>
+        <div class="col-lg-4">Columna 2</div>
+        <div class="col-lg-4 bg-warning">Columna 3</div>
+      </div>
+      <h2>
+        Breakpoint <code><div class="md"></div></code> pantalla >= 768px
+      </h2>
+      <div class="row">
+        <div class="col-md-4 bg-danger">Columna 1</div>
+        <div class="col-md-4">Columna 2</div>
+        <div class="col-md-4 bg-warning">Columna 3</div>
+      </div>
+      <h2>
+        Breakpoint <code><div class="sm"></div></code> pantalla >= 572px
+      </h2>
+      <div class="row">
+        <div class="col-sm-4 bg-danger">Columna 1</div>
+        <div class="col-sm-4">Columna 2</div>
+        <div class="col-sm-4 bg-warning">Columna 3</div>
+      </div>
+      <h2>Breakpoint combinado</h2>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 bg-danger">Columna 1</div>
+        <div class="col-xl-3 col-lg-2 col-md-6">Columna 2</div>
+        <div class="col-xl-3 col-lg-4 col-md-6 bg-warning">Columna 3</div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
